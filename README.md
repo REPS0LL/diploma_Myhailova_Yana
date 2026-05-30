@@ -141,7 +141,7 @@ ssim_value = ssim_metric(original_np, restored_np, data_range=1.0, channel_axis=
 | RuntimeError: CUDA out of memory (OOM)  |  Зменшити параметр batch_size у завантажувачі train_loader з 16 до 8 (або 4),   |
 |                                         |  або виконати очищення кешу через torch.cuda.empty_cache().                     |
 |-----------------------------------------|---------------------------------------------------------------------------------|
-| ValueError: images must have the same   |  Перевірити, щоб у конвеєрі даних FaceBlurDataset обов'язково відпрацьовував    |                   | dimensions                              |  шар фіксованого кропування T.RandomCrop(patch_size),                           |
+| ValueError: images must have the same   |  Перевірити, щоб у конвеєрі даних FaceBlurDataset обов'язково відпрацьовував  шар фіксованого кропування T.RandomCrop(patch_size),                               |                   | dimensions                              ||
 |                                         |  який гарантує однаковий розмір усіх тензорів.                                  |
                          
 
