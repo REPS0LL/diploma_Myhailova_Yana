@@ -61,6 +61,8 @@
 python
 FACE_DATA_DIR = '/content/ВАША ПАПКА' 
 
+(https://www.kaggle.com/datasets/anku5hk/5-faces-dataset/data)
+
 
 ### 3. Запуск
 
